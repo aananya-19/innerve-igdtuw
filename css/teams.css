@@ -157,6 +157,7 @@ body{
     transform: translateX(-50%);
     height: 400px;
     transition: 0.5s;
+    object-fit: cover;
    
 
 }
