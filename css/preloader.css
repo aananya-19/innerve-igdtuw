@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+html, body{
+  width: 100%;
+ height: 100%;
+ margin:0;
+ padding:0;
+ overflow-x:hidden;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+
+.main {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Neucha', cursive;
+  font-weight: 600;
+}
+
+.animate-character {
+  /* text-transform: uppercase; */
+  background-image: linear-gradient(-225deg,
+      #FF0000 20%,
+      #FFD700 30%,
+      #ADFF2F 45%,
+      #FF69B4 70%);
+
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #000000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: textclip 2s linear infinite;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+
+  text-align: center;
+  display: inline-block;
+  font-size: 9vw;
+}
+
+@keyframes textclip {
+  40% {
+    transform: scale(0.5);
+  }
+
+  to {
+    background-position: 200% center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 10px;
+  }
+}
