@@ -1,4 +1,5 @@
 @import "./header_footer.css";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 body {
@@ -7,10 +8,24 @@ body {
     background-size: cover;
     font-size: 18px;
     width: 100%;
+    font-family: 'Quicksand', sans-serif;
     height: 100%;
 }
 
+.eventsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.heading {
+    font-family: 'Neucha', cursive;
+    color: white;
+    font-size: 40px;
+    text-shadow: 0 0 5px #962AA4, 0 0 10px #7DA9F7,
+        0 0 21px #F67EE1;
+}
 
 p {
     line-height: 1.5;
@@ -33,8 +48,7 @@ a:active {
 }
 
 .container {
-
-    max-width: 800px;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -42,7 +56,7 @@ a:active {
 .card-column {
     width: 50%;
     float: left;
-    padding: 4%;
+    /* padding: 4%; */
     box-sizing: border-box;
 }
 
@@ -225,11 +239,23 @@ a:active {
     transition-delay: 1000ms;
 }
 
+@media screen and (max-width: 900px) {
+    .container {
+        width: 80%;
+    }
 
-@media screen and (max-width: 600px) {
     .card-column {
         width: 90%;
+    }
+}
 
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+
+    .card-column {
+        width: 90%;
     }
 
     .column-1 {
@@ -239,71 +265,5 @@ a:active {
     .open-content img {
         margin-top: 40px;
 
-    }
-}
-
-.heading {
-    size: 48px;
-    text-align: center;
-    padding-top: 0%;
-    padding-bottom: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
-
-.card-column {
-    padding-top: 0%;
-    padding-bottom: 15%;
-}
-
-@media (min-width:915px) {
-    .heading {
-        margin-left: 26.81%;
-        /* text-align: center; */
-    }
-}
-
-.neon {
-    font-family: 'Courgette', cursive;
-    font-family: 'Lobster', cursive;
-    font-family: 'Patrick Hand', cursive;
-    color: #FB4264;
-    font-size: 4rem;
-    line-height: 9vw;
-    text-shadow: 0 0 3vw #F40A35;
-}
-
-.neon {
-    animation: neon 1s ease infinite;
-    -moz-animation: neon 1s ease infinite;
-    -webkit-animation: neon 1s ease infinite;
-}
-
-@keyframes neon {
-
-    0%,
-    100% {
-        text-shadow: 0 0 1vw #4984f0, 0 0 3vw #4984f0, 0 0 10vw #4984f0, 0 0 10vw #4984f0, 0 0 .4vw #2132f4, .5vw .5vw .1vw #b091d4;
-        color: #6fb7dd;
-    }
-
-    50% {
-        text-shadow: 0 0 .5vw #060538, 0 0 1.5vw #060538, 0 0 5vw #060538, 0 0 5vw #060538, 0 0 .2vw #060538, .5vw .5vw .1vw #40340A;
-        color: #b091d4;
-    }
-}
-
-
-
-@media (max-width: 991px) {
-    .neon {
-        font-size: 3rem;
-        margin-top: 2rem;
-    }
-
-    .heading {
-        text-align: center;
-
-        margin-top: 2.5rem;
     }
 }
