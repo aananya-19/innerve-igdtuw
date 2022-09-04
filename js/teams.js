@@ -45,10 +45,26 @@ $(window).scroll(function(){
               $('.card22').removeClass('zoom');
               $('.card23').removeClass('zoom');
               $('.card24').removeClass('zoom');
+
         
             }
-  
+            var h =8167;
+            var h1=8289;
+            var pos = $(window).scrollTop();
+            console.log(pos);
+            
+            if(pos > h&&pos<h1){
+              $('.card25').addClass('zoom');
+              $('.card26').addClass('zoom');
+              $('.card27').addClass('zoom');
+            }
+            else {
+              $('.card25').removeClass('zoom');
+              $('.card26').removeClass('zoom');
+              $('.card27').removeClass('zoom');
+           
 }
+    }
 else{for(var i=0;i<3;i++)
     {    var h = 90+(600*i);
         var h1=400+(600*i);

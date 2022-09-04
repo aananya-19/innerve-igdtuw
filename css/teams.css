@@ -128,7 +128,7 @@ body{
     justify-content: center;
     align-items: center;
     opacity: 1;
-    
+    margin-top: 0;
 
 }
 
@@ -172,11 +172,13 @@ h2{
     color:white;
     text-align: center;
     font-size: 3rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-bottom:0rem;
     font-family: 'Quicksand', sans-serif;
 
 }
+
+
 .card h2{
     font-size:3rem;
     color:WHITE;
@@ -184,8 +186,8 @@ h2{
 }
 .neon {
     font-family: 'Courgette', cursive;
-font-family: 'Lobster', cursive;
-font-family: 'Patrick Hand', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Patrick Hand', cursive;
     color: #FB4264;
     font-size: 4rem;
     line-height: 9vw;
@@ -239,6 +241,9 @@ font-family: 'Patrick Hand', cursive;
         -o-transform: scale(1);
         transform: scale(1);
  
+}
+.heading{
+    margin-top:2.5rem;
 }
     }
   
