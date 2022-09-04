@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
+html, body{
+  width: 100%;
+ height: 100%;
+ margin:0;
+ padding:0;
+ overflow-x:hidden;
+}
+
 canvas {
   display: block;
   width: 100%;
   height: 100vh;
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
 }
 
 .main {
@@ -37,7 +48,7 @@ canvas {
 
   text-align: center;
   display: inline-block;
-  font-size: 9vw
+  font-size: 9vw;
 }
 
 @keyframes textclip {
