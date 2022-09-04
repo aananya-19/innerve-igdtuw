@@ -6,9 +6,10 @@
 
 .glitch,
 .glow {
+  font-family: 'Neucha', cursive;
   color: #fff;
   position: relative;
-  font-size: 6em;
+  font-size: 3em;
   font-weight: 600;
   letter-spacing: 4px;
   animation: glitch 8s 8s infinite;
