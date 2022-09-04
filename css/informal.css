@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
-@import "./header_footer.css";
+@import "./header_footer_events.css";
+
 :root {
   --d: 700ms;
   --e: cubic-bezier(0.19, 1, 0.22, 1);
@@ -15,14 +16,14 @@ body {
   height: 100%;
   overflow-x: hidden;
   /*background: linear-gradient(to bottom right,rgb(8, 2, 22),#05032e); */
-  background:url("../assets/events/eventbg.jpg") no-repeat;
+  background: url("../assets/events/eventbg.jpg") no-repeat;
   background-size: cover;
 }
 
 body {
   display: grid;
   place-items: center;
-  
+
   position: relative
 }
 
