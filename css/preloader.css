@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Quicksand?query=quicksand);
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 canvas {
   display: block;
@@ -11,11 +11,12 @@ canvas {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Neucha', cursive;
+  font-weight: 600;
 }
 
 .animate-character {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   background-image: linear-gradient(-225deg,
       #FF0000 20%,
       #FFD700 30%,
@@ -27,7 +28,6 @@ canvas {
   background-size: 200% auto;
   color: #000000;
   background-clip: text;
-
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 

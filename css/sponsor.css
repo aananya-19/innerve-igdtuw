@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
 
-body{
+body {
     /* display: flex; */
     justify-content: center;
     align-items: center;
@@ -15,22 +16,23 @@ body{
     background: #111;
     background: url(../assets/SponsorsBG.png);
     background-attachment: fixed;
-    font:  #BAB0EA;
-   background-size: cover;
+    font: #BAB0EA;
+    background-size: cover;
 }
 
-.main{
+.main {
     margin-top: 5%;
 }
 
-#heading{
+#heading {
     color: white;
     display: flex;
     justify-content: center;
     font-size: 3rem;
+    font-family: 'Neucha', cursive;
 }
 
-.container{
+.container {
     position: relative;
     display: flex;
     justify-content: center;
@@ -38,7 +40,7 @@ body{
     margin-top: 3%;
 }
 
-.container .card{
+.container .card {
     position: relative;
     width: 500px;
     height: 350px;
@@ -50,7 +52,7 @@ body{
     background: linear-gradient(45deg, #202020a2, #302b2b)
 }
 
-.container .card img{
+.container .card img {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -59,12 +61,12 @@ body{
     transition: 0.5s;
 }
 
-.container .card:hover img{
+.container .card:hover img {
     left: 73%;
     height: 500px;
 }
 
-.container .card .content{
+.container .card .content {
     position: relative;
     width: 40%;
     left: 20%;
@@ -74,14 +76,13 @@ body{
     transition: 0.5s;
 }
 
-.container .card:hover .content{
+.container .card:hover .content {
     left: 0;
     opacity: 1;
     visibility: visible;
 }
 
-.container .card .content h2
-{
+.container .card .content h2 {
     color: #fff;
     text-transform: uppercase;
     font-size: 2.2em;
@@ -89,11 +90,11 @@ body{
 
 }
 
-.container .card .content p{
-    color: #fff;   
+.container .card .content p {
+    color: #fff;
 }
 
-.container .card .content a{
+.container .card .content a {
     position: relative;
     color: #111;
     background: #fff;
@@ -108,45 +109,47 @@ section {
     height: calc(100vh - 80vh);
 }
 
-nav ul{
-    z-index: 4;
-}
-@media (max-width: 991px){
-    .container .card{
+
+@media (max-width: 991px) {
+    .container .card {
         width: auto;
         max-width: 600px;
         align-items: flex-start;
     }
-    .container .card:hover{
+
+    .container .card:hover {
         height: 600px;
 
     }
-    .container .card:hover img{
+
+    .container .card:hover img {
         left: 50%;
         height: 350px;
     }
-    .container .card .content{
+
+    .container .card .content {
         width: 100%;
         left: 0;
         padding: 40px;
     }
 }
 
-@media (max-width: 767px){
-    .container{
+@media (max-width: 767px) {
+    .container {
         flex-direction: column;
     }
-    .container .card{
+
+    .container .card {
         margin: 40px 20px;
     }
 }
 
-@media (max-width: 420px){
-    .container .card .content{
+@media (max-width: 420px) {
+    .container .card .content {
         padding: 30px;
     }
 
-    .container .card:hover img{
+    .container .card:hover img {
         height: 300px;
     }
 }
