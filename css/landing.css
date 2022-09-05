@@ -11,7 +11,7 @@ nav {
 
 nav ul {
   float: right;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   z-index: 2;
 }
 
@@ -43,7 +43,7 @@ a:hover {
   color: white;
   float: right;
   line-height: 80px;
-  margin-right: 10px;
+  margin-right: 25px;
   cursor: pointer;
   display: none;
   position: relative;
@@ -85,7 +85,8 @@ a:hover {
 
   #logo {
     position: absolute;
-    left: 22px;
+    left: 18px;
+    margin-right: 10px;
     top: 21px;
   }
 
@@ -104,8 +105,10 @@ a:hover {
     width: 100%;
     height: 100vh;
     background: #22003D;
+    padding: 0 0 0 0;
     top: 80px;
     left: -100%;
+    margin: auto;
     text-align: center;
     transition: all .5s;
     z-index: 2 !important;
@@ -359,7 +362,7 @@ a.menu {
 
 .container {
   font: size 26px;
-  width: 80%;
+  width: 100%;
 
 }
 
