@@ -70,6 +70,9 @@ a:hover {
 @media (max-width: 858px) {
   .checkbtn {
     display: block;
+    position: fixed;
+    right: 0;
+    z-index: 10;
   }
 
   nav ul {
@@ -79,7 +82,7 @@ a:hover {
     background: #22003d;
     display: block;
     z-index: 1;
-    top: 80px;
+    top: 0px;
     left: -100%;
     text-align: center;
     transition: all 0.5s;
@@ -99,6 +102,7 @@ a:hover {
 
   nav ul li a {
     font-size: 16px;
+    top:50px
   }
 
   a:hover,
