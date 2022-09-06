@@ -2,8 +2,8 @@ $(window).scroll(function(){
     if(screen.availWidth>=1024)
     {
     for(var i=0;i<3;i++)
-    {    var h = 90+(650*i);
-        var h1=400+(650*i);
+    {    var h = 90+(200*i);
+        var h1=400+(200*i);
         var pos = $(window).scrollTop();
         console.log(pos);
         
