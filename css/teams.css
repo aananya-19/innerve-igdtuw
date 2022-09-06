@@ -273,10 +273,9 @@ h4 {
     margin-bottom: 1rem;
   }
 
-  .container .card h3 {
-    margin-top: 1rem;
-
-    font-size: 2rem;
+  .container .card h4 {
+    margin-top:8rem;
+    font-size:2rem;
   }
 
   .container .card:hover img {
