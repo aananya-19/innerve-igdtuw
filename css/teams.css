@@ -143,8 +143,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 1;
   margin-top: 0;
+  opacity: 0;
 
 }
 
@@ -186,6 +186,10 @@ body {
 
 .container .card:hover img {
   opacity: 0.4;
+ 
+}
+.container:hover{
+  transform: scale(1.2);
 }
 
 .container .card:hover h4 {
@@ -280,6 +284,11 @@ h4 {
 
   .container .card:hover img {
     opacity: 0.4;
+    
+  }
+  .container:hover{
+    transform: scale(1.15);
+
   }
 
   .zoom {
