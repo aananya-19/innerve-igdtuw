@@ -144,7 +144,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 0;
-  opacity: 0;
+  
 
 }
 
@@ -311,28 +311,12 @@ h4 {
 @media (max-width: 900px) {
   .container {
     flex-direction: column;
-    opacity:1;
+    
   }
 
-  .container .card {
+ /* .container .card {
     margin: 40px 20px;
-  }
+  }*/
 }
 
 @media (max-width: 420px) {}
-
-.zoom {
-  -ms-transform: scale(1.15);
-  -moz-transform: scale(1.15);
-  -webkit-transform: scale(1.15);
-  -o-transform: scale(1.15);
-  transform: scale(1.15);
-}
-
-.zoomout {
-  -ms-transform: scale(1);
-  -moz-transform: scale(1);
-  -webkit-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-}
