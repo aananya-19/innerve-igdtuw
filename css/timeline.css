@@ -17,6 +17,16 @@ body {
   min-height: 100vh;
 }
 
+.heading {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Neucha', cursive;
+  font-size: 48px;
+  text-shadow: 0 0 5px #B8A1DA, 0 0 10px #f5a3e6,
+    0 0 21px #F67EE1;
+}
+
 nav {
   height: 80px;
   width: 100%;
