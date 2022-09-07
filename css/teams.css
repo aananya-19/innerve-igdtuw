@@ -230,6 +230,8 @@ h4 {
     0 0 21px #E7A084;
 }
 
+
+
 /* .neon {
   font-family: 'Neucha', cursive;
   color: #FB4264;
@@ -278,8 +280,8 @@ h4 {
   }
 
   .container .card h4 {
-    margin-top:8rem;
-    font-size:2rem;
+    margin-top: 8rem;
+    font-size: 2rem;
   }
 
   .container .card:hover img {
