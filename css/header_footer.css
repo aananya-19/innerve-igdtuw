@@ -23,9 +23,10 @@ nav {
 
   height: 80px;
   width: 100%;
-  top: 0;
+  /* top: 0;
   position: fixed;
   z-index: 1000;
+  margin-bottom: 50px; */
 }
 
 nav ul {
@@ -73,6 +74,12 @@ a:hover {
 
 #check {
   display: none;
+}
+
+.solid {
+  background-color: #490D40;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
 }
 
 @media (max-width: 952px) {
