@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 @import "./header_footer.css";
 
 * {
@@ -142,8 +143,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 1;
   margin-top: 0;
+  opacity: 0;
 
 }
 
@@ -151,13 +152,15 @@ body {
 .container .card {
   position: relative;
   width: 290px;
-  height: 399px;
+  height: 290px;
   margin: 50px;
   display: flex;
   transition: 0.5s;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   background: transparent;
+  text-align: center;
+  border-radius: 50%;
 
 }
 
@@ -167,45 +170,70 @@ body {
 
 
 
-.container .card img{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 400px;
-    transition: 0.5s;
-    object-fit: cover;
+.container .card img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  /* height: 400px; */
+  height: 290px;
+  width: 290px;
+  border: 2px solid white;
+  transition: 0.5s;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .container .card:hover img {
   opacity: 0.4;
+ 
+}
+.container:hover{
+  transform: scale(1.2);
 }
 
-.container .card:hover h2 {
+.container .card:hover h4 {
   opacity: 1;
 }
 
-h2 {
-  color: white;
+h3 {
+  color: #f5daf0;
   text-align: center;
   font-size: 3rem;
   margin-top: 4rem;
   margin-bottom: 0rem;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Neucha', cursive;
+}
 
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
 }
 
 
-.card h2 {
+.card h3 {
   font-size: 3rem;
   color: WHITE;
   opacity: 0;
 }
 
-.neon {
-  font-family: 'Courgette', cursive;
-  font-family: 'Lobster', cursive;
-  font-family: 'Patrick Hand', cursive;
+.heading {
+  font-family: 'Neucha', cursive;
+  color: white;
+  font-size: 60px;
+  margin-top: 50px;
+  text-shadow: 0 0 5px #B5DBF0, 0 0 10px #93109C,
+    0 0 21px #E7A084;
+}
+
+
+
+/* .neon {
+  font-family: 'Neucha', cursive;
   color: #FB4264;
   font-size: 4rem;
   line-height: 9vw;
@@ -216,7 +244,7 @@ h2 {
   animation: neon 1s ease infinite;
   -moz-animation: neon 1s ease infinite;
   -webkit-animation: neon 1s ease infinite;
-}
+} */
 
 @keyframes neon {
 
@@ -246,19 +274,23 @@ h2 {
     margin-top: 2rem;
   }
 
-  h2 {
+  h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
 
-  .container .card h2 {
-    margin-top: 1rem;
-
+  .container .card h4 {
+    margin-top: 8rem;
     font-size: 2rem;
   }
 
   .container .card:hover img {
     opacity: 0.4;
+    
+  }
+  .container:hover{
+    transform: scale(1.1);
+
   }
 
   .zoom {
@@ -279,6 +311,7 @@ h2 {
 @media (max-width: 900px) {
   .container {
     flex-direction: column;
+    opacity:1;
   }
 
   .container .card {

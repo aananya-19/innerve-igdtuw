@@ -9,14 +9,11 @@
 }
 
 body {
-    /* display: flex; */
-    justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #111;
     background: url(../assets/SponsorsBG.png);
     background-attachment: fixed;
-    font: #BAB0EA;
     background-size: cover;
 }
 
@@ -28,8 +25,10 @@ body {
     color: white;
     display: flex;
     justify-content: center;
-    font-size: 3rem;
     font-family: 'Neucha', cursive;
+    font-size: 48px;
+    text-shadow: 0 0 5px #B8A1DA, 0 0 10px #f5a3e6,
+        0 0 21px #F67EE1;
 }
 
 .container {

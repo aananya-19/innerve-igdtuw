@@ -19,11 +19,13 @@ nav ul {
   float: right;
   margin-right: 20px;
 }
+
 nav ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
 }
+
 nav ul li a {
   color: #c0b8eb;
   font-size: 14px;
@@ -32,11 +34,13 @@ nav ul li a {
   text-transform: uppercase;
   font-weight: bold;
 }
+
 a.active,
 a:hover {
   background: #bdbdbde7;
   transition: 0.5s;
 }
+
 .checkbtn {
   font-size: 20px;
   color: white;
@@ -46,54 +50,68 @@ a:hover {
   cursor: pointer;
   display: none;
 }
+
 #check {
   display: none;
 }
+
 @media (max-width: 952px) {
   .navbar-brand {
     height: 82px;
     width: 152px;
     padding-left: 50px;
   }
+
   nav ul li a {
     font-size: 16px;
   }
 }
+
 @media (max-width: 858px) {
   .checkbtn {
     display: block;
+    position: fixed;
+    right: 0;
+    z-index: 10;
   }
+
   nav ul {
     position: fixed;
     width: 100%;
     height: 100vh;
     background: #22003d;
-   display: block;
-   z-index: 1;
-    top: 80px;
+    display: block;
+    z-index: 1;
+    top: 0px;
     left: -100%;
     text-align: center;
     transition: all 0.5s;
   }
+
   .navbar-brand {
     height: 82px;
     width: 152px;
     padding-left: 10px;
   }
+
   nav ul li {
     display: block;
     margin: 30px 0;
     line-height: 30px;
   }
+
   nav ul li a {
     font-size: 16px;
+    top:50px
   }
+
   a:hover,
   a.active {
     background: none;
     color: #360a36;
   }
-  #check:checked ~ ul {
+
+  #check:checked~ul {
     left: 0;
   }
 
@@ -151,6 +169,7 @@ footer .social_icon li,
 footer .menu li {
   list-style: none;
 }
+
 footer .social_icon li a {
   font-size: 2em;
   color: #532e98;
@@ -158,6 +177,7 @@ footer .social_icon li a {
   display: inline-block;
   transition: 0.5s;
 }
+
 footer .social_icon li a:hover {
   transform: translateY(-10px);
   color: #0f080fe1;
@@ -177,10 +197,12 @@ footer .menu li a {
   text-decoration: none;
   opacity: 0.75;
 }
+
 footer .menu li a:hover {
   opacity: 1;
   color: #fff;
 }
+
 p {
   color: #eee;
   text-align: center;
@@ -213,6 +235,7 @@ footer .wave#wave2 {
   bottom: 10px;
   animation: animateWave_02 4s linear infinite;
 }
+
 footer .wave#wave3 {
   z-index: 1000;
   opacity: 0.2;
@@ -231,6 +254,7 @@ footer .wave#wave4 {
   0% {
     background-position-x: 1000px;
   }
+
   100% {
     background-position-x: 0px;
   }
@@ -240,6 +264,7 @@ footer .wave#wave4 {
   0% {
     background-position-x: 0px;
   }
+
   100% {
     background-position-x: 1000px;
   }
@@ -248,48 +273,35 @@ footer .wave#wave4 {
 @font-face {
   font-family: 'ESL Legend';
   src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot);
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot#iefix)
-      format('embedded-opentype'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff2)
-      format('woff2'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff)
-      format('woff'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.ttf)
-      format('truetype'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.svg#eicon)
-      format('svg');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot#iefix) format('embedded-opentype'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff2) format('woff2'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff) format('woff'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.ttf) format('truetype'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.svg#eicon) format('svg');
   font-style: normal;
   font-weight: 300;
 }
+
 @font-face {
   font-family: 'ESL Legend';
   src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot);
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot#iefix)
-      format('embedded-opentype'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff2)
-      format('woff2'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff)
-      format('woff'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.ttf)
-      format('truetype'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.svg#eicon)
-      format('svg');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot#iefix) format('embedded-opentype'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff2) format('woff2'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff) format('woff'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.ttf) format('truetype'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.svg#eicon) format('svg');
   font-style: normal;
   font-weight: normal;
 }
+
 @font-face {
   font-family: 'ESL Legend';
   src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot);
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot#iefix)
-      format('embedded-opentype'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff2)
-      format('woff2'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff)
-      format('woff'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.ttf)
-      format('truetype'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.svg#eicon)
-      format('svg');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot#iefix) format('embedded-opentype'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff2) format('woff2'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff) format('woff'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.ttf) format('truetype'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.svg#eicon) format('svg');
   font-style: normal;
   font-weight: bold;
 }
@@ -308,18 +320,22 @@ img {
 .ag-timeline-block {
   padding: 50px 0;
 }
+
 .ag-timeline_title-box {
   padding: 0 0 30px;
 
   text-align: center;
 }
+
 .ag-timeline_tagline {
   font-size: 80px;
-  color: rgb(212, 0, 255);
+  margin: 30px 0;
+  color: white;
   font-family: 'Neucha', cursive;
-  text-shadow: 0 0 5px rgb(212, 0, 255), 0 0 10px rgb(212, 0, 255),
-    0 0 21px rgb(212, 0, 255);
+  text-shadow: 0 0 5px #B8A1DA, 0 0 10px #f5a3e6,
+    0 0 21px #F67EE1;
 }
+
 .ag-timeline_title {
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/bg.jpg);
   background-repeat: no-repeat;
@@ -329,7 +345,7 @@ img {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: rgb(200, 121, 216);
+  color: #F67EE1;
   font-size: 80px;
 }
 
@@ -338,6 +354,7 @@ img {
 
   position: relative;
 }
+
 .ag-timeline_item:nth-child(2n) {
   text-align: right;
 }
@@ -350,6 +367,7 @@ img {
 
   position: relative;
 }
+
 .ag-timeline_line {
   width: 2px;
   background-color: #393935;
@@ -371,27 +389,33 @@ img {
 .ag-timeline_line-progress {
   width: 100%;
   height: 20%;
-  background-color: rgb(212, 0, 255);
+  background-color: #F67EE1;
 }
 
 .ag-timeline-card_box {
   padding: 0 0 20px 50%;
 }
+
 .ag-timeline_item:nth-child(2n) .ag-timeline-card_box {
   padding: 0 50% 20px 0;
 }
+
 .ag-timeline-card_point-box {
   display: inline-block;
   margin: 0 14px 0 -28px;
 }
+
 .ag-timeline_item:nth-child(2n) .ag-timeline-card_point-box {
   margin: 0 -28px 0 14px;
 }
+
 .ag-timeline-card_point {
   height: 50px;
   line-height: 50px;
   width: 50px;
-  border: 3px solid rgb(212, 0, 255) /*#FF0*/;
+  border: 3px solid #F67EE1
+    /*#FF0*/
+  ;
   background-color: #1d1d1b;
 
   text-align: center;
@@ -403,21 +427,29 @@ img {
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
+
 .js-ag-active .ag-timeline-card_point {
   color: #1d1d1b;
-  background-color: rgb(212, 0, 255) /*#FF0*/;
+  background-color: rgb(229, 183, 239)
+    /*#FF0*/
+  ;
 }
+
 .ag-timeline-card_meta-box {
   display: inline-block;
 }
+
 .ag-timeline-card_meta {
   margin: 10px 0 0;
 
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: rgb(181, 77, 202) /*#FF0*/;
+  color: #d2c1eb
+    /*#FF0*/
+  ;
 }
+
 .ag-timeline-card_item {
   display: inline-block;
   width: 45%;
@@ -442,6 +474,7 @@ img {
 
   position: relative;
 }
+
 .ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_item {
   -webkit-transform: translateX(-200%);
   -moz-transform: translateX(-200%);
@@ -449,6 +482,7 @@ img {
   -o-transform: translateX(-200%);
   transform: translateX(-200%);
 }
+
 .ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
   -webkit-transform: translateX(200%);
   -moz-transform: translateX(200%);
@@ -456,6 +490,7 @@ img {
   -o-transform: translateX(200%);
   transform: translateX(200%);
 }
+
 .js-ag-active.ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_item,
 .js-ag-active.ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
   opacity: 1;
@@ -466,6 +501,7 @@ img {
   -o-transform: translateX(0);
   transform: translateX(0);
 }
+
 .ag-timeline-card_arrow {
   height: 18px;
   width: 18px;
@@ -483,22 +519,27 @@ img {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
 .ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_arrow {
   margin-left: calc(-18px / 2);
   margin-right: calc(-18px / 2);
 }
+
 .ag-timeline_item:nth-child(2n) .ag-timeline-card_arrow {
   margin-left: -10px;
 
   right: auto;
   left: 0;
 }
+
 .ag-timeline-card_img {
   width: 100%;
 }
+
 .ag-timeline-card_info {
   padding: 20px 30px;
 }
+
 .ag-timeline-card_title {
   display: none;
   margin: 10px 0 0;
@@ -508,6 +549,7 @@ img {
   font-size: 28px;
   color: #ff0;
 }
+
 .ag-timeline-card_desc {
   line-height: 1.45;
 
@@ -528,22 +570,27 @@ img {
   .ag-timeline_item:nth-child(2n) .ag-timeline-card_box {
     padding: 0 0 20px;
   }
+
   .ag-timeline-card_meta-box {
     display: none;
   }
+
   .ag-timeline-card_point-box,
   .ag-timeline_item:nth-child(2n) .ag-timeline-card_point-box {
     margin: 0 0 0 8px;
   }
+
   .ag-timeline-card_point {
     height: 40px;
     line-height: 40px;
     width: 40px;
   }
+
   .ag-timeline-card_item {
     width: auto;
     margin: -65px 0 0 75px;
   }
+
   .ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_item,
   .ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
     -webkit-transform: translateX(200%);
@@ -552,13 +599,16 @@ img {
     -o-transform: translateX(200%);
     transform: translateX(200%);
   }
+
   .ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_arrow {
     right: auto;
     left: 0;
   }
+
   .ag-timeline-card_title {
     display: block;
   }
+
   .ag-timeline-card_arrow {
     margin-top: 12px;
   }
@@ -583,13 +633,13 @@ img {
   .ag-timeline-card_info {
     padding: 10px 15px;
   }
+
   .ag-timeline-card_desc {
     font-size: 14px;
   }
 }
 
-@media only screen and (max-width: 479px) {
-}
+@media only screen and (max-width: 479px) {}
 
 @media (min-width: 768px) and (max-width: 979px) {
   .ag-format-container {
