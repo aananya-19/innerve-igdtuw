@@ -15,13 +15,14 @@ body {
     background: url(../assets/SponsorsBG.png);
     background-attachment: fixed;
     background-size: cover;
+    /* min-height: 100vh; */
 }
 
 .main {
     margin-top: 5%;
 }
 
-#heading {
+.heading {
     color: white;
     display: flex;
     justify-content: center;
@@ -31,6 +32,11 @@ body {
         0 0 21px #F67EE1;
 }
 
+.cs{
+    font-size: 60px;
+    align-items: center;
+    min-height: 40vh;
+}
 .container {
     position: relative;
     display: flex;
@@ -108,6 +114,10 @@ section {
     height: calc(100vh - 80vh);
 }
 
+footer {
+    position:absolute;
+    bottom:0;
+}
 
 @media (max-width: 991px) {
     .container .card {
@@ -150,5 +160,9 @@ section {
 
     .container .card:hover img {
         height: 300px;
+    }
+
+    .cs {
+        font-size: 45px;
     }
 }
