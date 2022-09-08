@@ -11,6 +11,10 @@ body {
     height: 100%;
 }
 
+.scrolled {
+    background-color: #671b83d6;
+}
+
 .eventsContainer {
     width: 100%;
     display: flex;
@@ -21,6 +25,7 @@ body {
 .heading {
     font-family: 'Neucha', cursive;
     color: white;
+    margin-top: 50px;
     font-size: 40px;
     text-shadow: 0 0 5px #962AA4, 0 0 10px #7DA9F7,
         0 0 21px #F67EE1;

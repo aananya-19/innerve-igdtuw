@@ -25,31 +25,68 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <!--External css-->
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/navbar.js"></script>
     <link rel="stylesheet" href="../css/landing.css">
+
+    <style>
+        .scrolled {
+            background-color: #2b0054e1;
+        }
+    </style>
 
 </head>
 
 <body>
 
-    <nav  class="main">
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
+    <div class='navContainer'>
+
+        <a href="./landing.html" class='navLogo'><img src="../assets/header_footer/logo.webp" alt=""></a>
+
+
+        <input type="checkbox" id='menu-bar' />
+        <label for="menu-bar">
+            <img src="../assets/header_footer/hamburger.png" alt="">
         </label>
-        <a class="navbar-brand" href="#"><img id="logo" src="../assets/header_footer/logo.webp" height="82"
-            width="152"></a>
-        <ul>
-            <!--           <li><a  class="menu"  href="#">Home</a></li>
-          <li><a  class="menu" href="#">Register</a></li> -->
-            <li><a class="menu" href="events.html">Events</a></li>
-            <li><a class="menu" href="gallery.html">Gallery</a></li>
-            <li><a class="menu" href="sponsor.html">Sponsors</a></li>
-            <!--           <li><a  class="menu" href="#">Social Campaign</a></li> -->
-            <li><a class="menu" href="timeline.html">Timeline</a></li>
-            <li><a class="menu" href="teams.html">Meet the team</a></li>
-        </ul>
-    </nav>
+        <nav class='navbar'>
+            <ul>
+                <a href="#">
+
+                    <li>
+                        <p>Innerve Hacks</p>
+                    </li>
+                </a>
+                <a href="./events.html">
+                    <li>
+                        <p>Events</p>
+                    </li>
+                </a>
+                <a href="./gallery.html">
+                    <li>
+                        <p>Gallery</p>
+                    </li>
+                </a>
+                <a href="./sponsor.html">
+
+                    <li>
+                        <p>Sponsors</p>
+                    </li>
+                </a>
+                <a href="./timeline.html">
+
+                    <li>
+                        <p>Timeline</p>
+                    </li>
+                </a>
+                <a href="./teams.html">
+
+                    <li>
+                        <p>Team</p>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+    </div>
 
 
 
@@ -65,13 +102,14 @@
     <div class="container">
         <div class="content-header">
             <h1 class="neon loader" id="loader"> </h1>
-            <h2 class="sub" style="font-family: 'Quicksand', sans-serif;"><strong>The Annual Tech Fest of IGDTUW</strong></h2>
+            <h2 class="sub" style="font-family: 'Quicksand', sans-serif;"><strong>The Annual Tech Fest of
+                    IGDTUW</strong></h2>
 
         </div>
         <div class="content">
             <div class="about-us">
                 <div class="container">
-                    <p class="h3 text-left" >About Us</p>
+                    <p class="h3 text-left">About Us</p>
                     <p class="responsive-paragraph">Innerve is the annual technical fest of Indira Gandhi Delhi
                         Technical University for Women (IGDTUW), catering to the interests of numerous students
                         across all fields. Experiencing a footfall of over 9000 students from all over the country
