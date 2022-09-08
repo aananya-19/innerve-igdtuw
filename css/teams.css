@@ -283,6 +283,9 @@ h4 {
     margin-top: 8rem;
     font-size: 2rem;
   }
+  .container .card {
+   width:290px;
+  }
 
   .container .card:hover img {
     opacity: 0.4;
