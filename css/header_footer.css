@@ -124,13 +124,13 @@ section {
   height: calc(100vh - 80px);
 }
 
-a.menu {
+/* a.menu {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   text-decoration: none;
   position: relative;
   border-radius: 20px;
-}
+} */
 
 
 
@@ -202,7 +202,7 @@ footer .menu li a:hover {
   color: #fff;
 }
 
-p {
+footer p {
   color: #eee;
   text-align: center;
   margin-top: 15px;

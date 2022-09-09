@@ -146,8 +146,6 @@ body {
   align-items: center;
   margin-top: 0;
   overflow-x: hidden;
-
-
 }
 
 
@@ -204,7 +202,7 @@ body {
 h3 {
   color: #f5daf0;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 4rem;
   margin-bottom: 0rem;
   font-family: 'Neucha', cursive;
@@ -213,7 +211,7 @@ h3 {
 h4 {
   color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.75rem;
   margin-bottom: 0rem;
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
@@ -298,7 +296,7 @@ h4 {
 
   .container .card h4 {
     margin-top: 8rem;
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .container .card {
@@ -310,7 +308,7 @@ h4 {
 
   }
 
-  .container:hover {
+  .container .card:hover {
     transform: scale(1.1);
 
   }

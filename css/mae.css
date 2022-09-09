@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
-@import "./header_footer_events.css";
+/* @import "./header_footer_events.css"; */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
@@ -31,13 +31,13 @@ body {
   position: relative
 }
 
-nav {
+/* nav {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   padding: 20px;
-}
+} */
 
 .heading {
   font-family: 'Neucha', cursive;
@@ -72,6 +72,25 @@ nav {
   }
 }
 
+.scrolled {
+  background-color: #671b83da;
+}
+
+.navbar ul li p:hover {
+  color: #faa3e9;
+}
+
+@media (max-width:800px) {
+  .navContainer .navbar {
+    background: #370963;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar li {
+    margin: 20px 0;
+  }
+}
 
 .page-content {
   display: grid;
