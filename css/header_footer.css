@@ -40,7 +40,7 @@ body {
 
 
 .scrolled {
-  background: #8f447cc2;
+
   transition: background 500ms;
 }
 
@@ -60,11 +60,6 @@ body {
   color: white;
   display: block;
   transition: all 1s;
-}
-
-.navbar ul li p:hover {
-  color: #F87EDF;
-  border-radius: 50px;
 }
 
 #menu-bar {
@@ -97,7 +92,6 @@ body {
     top: 70px;
     left: -100%;
     text-align: center;
-    background: #8f447c;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     display: block;
     transition: all 0.3s ease;

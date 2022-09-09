@@ -18,6 +18,20 @@ body {
     /* min-height: 100vh; */
 }
 
+.scrolled {
+    background-color: #38247ca7;
+}
+
+.navbar ul li p:hover {
+    color: #c7b7dc;
+}
+
+@media (max-width:800px) {
+    .navContainer .navbar {
+        background: #300F51;
+    }
+}
+
 .main {
     margin-top: 5%;
 }
@@ -32,11 +46,12 @@ body {
         0 0 21px #F67EE1;
 }
 
-.cs{
+.cs {
     font-size: 60px;
     align-items: center;
     min-height: 40vh;
 }
+
 .container {
     position: relative;
     display: flex;
@@ -115,8 +130,8 @@ section {
 }
 
 footer {
-    position:absolute;
-    bottom:0;
+    position: absolute;
+    bottom: 0;
 }
 
 @media (max-width: 991px) {

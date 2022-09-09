@@ -281,7 +281,9 @@ a.menu {
 } */
 
 
-
+.scrolled {
+  background-color: #2b0054e1;
+}
 
 .neon {
   font-family: 'Quicksand', sans-serif;
