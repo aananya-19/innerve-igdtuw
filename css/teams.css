@@ -132,6 +132,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background: url("../assets/team_images/building.jpg") center center no-repeat;
+  -webkit-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
@@ -144,6 +145,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 0;
+  overflow-x: hidden;
   
 
 }
@@ -165,7 +167,8 @@ body {
 }
 
 .container .card:hover {
-  background-color: black;
+  background-color:black;
+  
 }
 
 
@@ -186,6 +189,7 @@ body {
 
 .container .card:hover img {
   opacity: 0.4;
+ 
  
 }
 .container:hover{
