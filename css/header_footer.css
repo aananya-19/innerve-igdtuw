@@ -73,6 +73,13 @@ body {
   display: none;
 }
 
+@media (max-width:850px) {
+  .navbar ul li p {
+    font-size: 0.9rem;
+    padding: 10px 10px;
+  }
+}
+
 @media (max-width:600px) {
   .navContainer {
     height: 70px;
