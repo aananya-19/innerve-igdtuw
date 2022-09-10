@@ -20,6 +20,7 @@ body {
   z-index: 100;
   height: 70px;
   margin-bottom: 100px;
+
 }
 
 .navLogo img {
@@ -30,6 +31,12 @@ body {
 .scrolled {
   background: #8f447cc2;
   transition: background 500ms;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar li {
+    margin: 20px 0;
+  }
 }
 
 .navbar ul {

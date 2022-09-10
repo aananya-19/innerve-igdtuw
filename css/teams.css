@@ -248,6 +248,12 @@ h4 {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .navbar li {
+    margin: 20px 0;
+  }
+}
+
 /* .neon {
   font-family: 'Neucha', cursive;
   color: #FB4264;

@@ -32,6 +32,12 @@ body {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .navbar li {
+        margin: 20px 0;
+    }
+}
+
 .main {
     position: absolute;
     top: 50%;
@@ -51,8 +57,11 @@ body {
 
 .cs {
     font-size: 60px;
-    align-items: center;
     min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .container {
