@@ -460,7 +460,7 @@ h1 {
 	width: 40%;
 	/*border-top: 1px solid rgba(255, 255, 255, 0.5);
 	border-left: 1px solid rgba(255, 255, 255, 0.5);*/
-	padding: 60px;
+	padding: 40px;
 	box-shadow: rgba(255, 255, 255, 0.5) -20px -20px 45px inset, rgba(0, 0, 0, 0.1) 10px 10px 20px, rgba(0, 0, 0, 0.06) 5px 5px 10px;
 	position: relative;
 }
@@ -524,8 +524,9 @@ h2 {
 	backdrop-filter: blur(10px);
 }
 
-h3 {
+.rewards h3 {
 	text-transform: uppercase;
+	margin-top:0rem;
 }
 
 ul {
