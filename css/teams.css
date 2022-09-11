@@ -146,8 +146,6 @@ body {
   align-items: center;
   margin-top: 0;
   overflow-x: hidden;
-  
-
 }
 
 
@@ -167,8 +165,8 @@ body {
 }
 
 .container .card:hover {
-  background-color:black;
-  
+  background-color: black;
+
 }
 
 
@@ -189,10 +187,11 @@ body {
 
 .container .card:hover img {
   opacity: 0.4;
- 
- 
+
+
 }
-.container:hover{
+
+.container:hover {
   transform: scale(1.2);
 }
 
@@ -203,7 +202,7 @@ body {
 h3 {
   color: #f5daf0;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 4rem;
   margin-bottom: 0rem;
   font-family: 'Neucha', cursive;
@@ -212,7 +211,7 @@ h3 {
 h4 {
   color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.75rem;
   margin-bottom: 0rem;
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
@@ -229,12 +228,31 @@ h4 {
   font-family: 'Neucha', cursive;
   color: white;
   font-size: 60px;
-  margin-top: 50px;
+  margin-top: 150px;
+  margin-bottom: 50px;
   text-shadow: 0 0 5px #B5DBF0, 0 0 10px #93109C,
     0 0 21px #E7A084;
 }
 
+.scrolled {
+  background: #561258d1;
+}
 
+.navbar ul li p:hover {
+  color: #43BFB9;
+}
+
+@media (max-width:800px) {
+  .navContainer .navbar {
+    background: #34074D;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar li {
+    margin: 20px 0;
+  }
+}
 
 /* .neon {
   font-family: 'Neucha', cursive;
@@ -243,7 +261,6 @@ h4 {
   line-height: 9vw;
   text-shadow: 0 0 3vw #F40A35;
 }
-
 .neon {
   animation: neon 1s ease infinite;
   -moz-animation: neon 1s ease infinite;
@@ -285,17 +302,19 @@ h4 {
 
   .container .card h4 {
     margin-top: 8rem;
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
+
   .container .card {
-   width:290px;
+    width: 290px;
   }
 
   .container .card:hover img {
     opacity: 0.4;
-    
+
   }
-  .container:hover{
+
+  .container .card:hover {
     transform: scale(1.1);
 
   }
@@ -318,12 +337,18 @@ h4 {
 @media (max-width: 900px) {
   .container {
     flex-direction: column;
-    
+
   }
 
- /* .container .card {
+  /* .container .card {
     margin: 40px 20px;
   }*/
 }
 
-@media (max-width: 420px) {}
+@media (max-width: 420px) {
+
+  .heading {
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+}

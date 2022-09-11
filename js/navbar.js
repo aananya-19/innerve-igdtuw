@@ -1,14 +1,16 @@
 
-const nav = document.querySelector("nav");
-console.log(nav)
+$(function () {
+    var header = $(".navContainer");
+    console.log(header)
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+            header.addClass("scrolled");
+        } else {
+            header.removeClass("scrolled");
+        }
+    });
 
-const changeBackground = () => {
-    if (document.body.scrollTop > 500) {
-        console.log("hiiii")
-        nav.style.backgroundColor = "white";
-    } else {
-        nav.style.backgroundColor = "transparent";
-    }
-};
+});
 
-changeBackground();
+
