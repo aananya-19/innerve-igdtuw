@@ -360,6 +360,10 @@ body {
     display: block !important
   }
 
+  .content {
+    margin-left: 60px;
+  }
+
   .hidden-xs {
     display: none !important
   }
@@ -472,7 +476,7 @@ body {
 footer {
 
   position: relative;
-  top: 250px;
+  top: 0;
   width: 100%;
   min-height: 100px;
   padding: 341px 508px;
