@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>MAE Events</title>
+  <title>INNERVE MAE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="../css\mae.css">
+  <link rel="stylesheet" href="../css/header_footer.css">
   <!-- <link rel="stylesheet" href="../css\header_footer.css">-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet"
@@ -16,23 +17,55 @@
 
 <body>
   <!-- partial:index.partial.html -->
-  <nav>
-    <input type="checkbox" id="check">
-    <label for="check" class="checkbtn">
-      <i class="fas fa-bars"></i>
+  <div class='navContainer'>
+
+    <a href="./landing.html" class='navLogo'><img src="../assets/header_footer/logo.webp" alt=""></a>
+
+
+    <input type="checkbox" id='menu-bar' />
+    <label for="menu-bar">
+      <img src="../assets/header_footer/hamburger.png" alt="">
     </label>
-    <a class="navbar-brand" href="landing.html"><img id="logo" src="../assets/header_footer/logo.webp" height="82"
-        width="152"></a>
-    <ul>
-      <!-- <li><a class="menu" href="#">Register</a></li> -->
-      <li><a class="menu" href="./events.html">Events</a></li>
-      <li><a class="menu" href="./gallery.html">Gallery</a></li>
-      <li><a class="menu" href="./sponsor.html">Sponsors</a></li>
-      <!-- <li><a class="menu" href="#">Social Campaign</a></li> -->
-      <li><a class="menu" href="./timeline.html">Timeline</a></li>
-      <li><a class="menu" href="./teams.html">Meet the team</a></li>
-    </ul>
-  </nav>
+    <nav class='navbar'>
+      <ul>
+        <a href="./hacks.html">
+
+
+          <li>
+            <p>Innerve Hacks</p>
+          </li>
+        </a>
+        <a href="./events.html">
+          <li>
+            <p>Events</p>
+          </li>
+        </a>
+        <a href="./gallery.html">
+          <li>
+            <p>Gallery</p>
+          </li>
+        </a>
+        <a href="./sponsor.html">
+
+          <li>
+            <p>Sponsors</p>
+          </li>
+        </a>
+        <a href="./timeline.html">
+
+          <li>
+            <p>Timeline</p>
+          </li>
+        </a>
+        <a href="./teams.html">
+
+          <li>
+            <p>Team</p>
+          </li>
+        </a>
+      </ul>
+    </nav>
+  </div>
   <div class="heading">
     <h class="neon">COMING SOON</h>
   </div>
@@ -72,6 +105,8 @@
       </div>
     </div>
   </main> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="../js/navbar.js"></script>
 </body>
 
 </html>
