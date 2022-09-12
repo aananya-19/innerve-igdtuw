@@ -11,13 +11,14 @@ body {
 	position: relative;
 }
 
-.heading{
-	padding: 3.5rem 0 0 0;  
-	font-family: 'Neucha', cursive;   text-shadow: 0 0 5px #B5DBF0, 0 0 10px #93109C,0 0 21px #E7A084;
-} 
+.heading {
+	padding: 3.5rem 0 0 0;
+	font-family: 'Neucha', cursive;
+	text-shadow: 0 0 5px #B5DBF0, 0 0 10px #93109C, 0 0 21px #E7A084;
+}
 
 .navbar ul li p:hover {
-	color: #F87EDF;
+	color: #BAF4C4;
 }
 
 @media (max-width:600px) {
@@ -572,9 +573,13 @@ h2 {
 	margin-top: 0rem;
 }
 
-ul {
+.main ul {
 	list-style-type: square;
 	list-style-position: inside;
+}
+
+.hydrated {
+	visibility: inherit;
 }
 
 @media only screen and (max-width: 1001px) {}
@@ -603,7 +608,6 @@ body {
 
 	font-family: 'Quicksand', sans-serif;
 
-	min-height: 100vh;
 	/* padding: 2rem; */
 
 	/* color: hsla(0, 0%, 0%, .6); */
