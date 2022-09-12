@@ -242,7 +242,7 @@ h4 {
   color: #43BFB9;
 }
 
-@media (max-width:800px) {
+@media (max-width:600px) {
   .navContainer .navbar {
     background: #34074D;
   }

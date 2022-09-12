@@ -15,9 +15,9 @@ body {
 	color: #F87EDF;
 }
 
-@media (max-width:800px) {
+@media (max-width:600px) {
 	.navContainer .navbar {
-		background: #6b0f54;
+		background: #0d3d2e;
 	}
 }
 
@@ -49,10 +49,18 @@ body {
 }
 
 #reg-button {
-	background-color: rgb(110, 212, 110);
-	font-size: larger;
-	padding: 0.5rem 1rem;
+	background-color: #136149;
+	font-size: 20px;
+	color: white;
+	font-weight: 'QuickSand', sans-serif;
+	padding: 1rem 2rem;
 	border-radius: 30px;
+	transition: 0.3ms ease-in-out;
+	cursor: pointer;
+}
+
+#reg-button:hover {
+	background-color: #0c4937;
 }
 
 .page-event {
@@ -69,7 +77,7 @@ body {
 
 .page-event .cover .heading {
 	font-size: 80px;
-	margin-top: 50px;
+	margin-top: 100px;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
 	text-align: center;
@@ -109,7 +117,7 @@ body {
 
 .page-event .upcoming-event-list .event-block {
 	padding: 5vh 0;
-	border-bottom: 1px solid #ccc;
+	/* border-bottom: 1px solid #ccc; */
 }
 
 .page-event .upcoming-event-list .event-block .sec-1,
@@ -387,17 +395,20 @@ body {
 	font-weight: 200;
 	letter-spacing: 2px;
 }
+
 h1 {
-	font-family: 'Neucha', cursive;
+	font-family: 'QuickSand', sans-serif;
 	color: white;
 	font-size: 2rem;
+	font-weight: bolder;
 	width: 100vw;
 	text-align: center;
 	padding: 0%;
-	text-shadow: 0 0 5px #B5DBF0, 0 0 10px #93109C,
-		0 0 21px #E7A084;
-	margin-top: 8rem;
-	margin-bottom: 4rem;
+	text-shadow: 0 0 2px #B5DBF0, 0 0 2px #89ff00,
+		0 0 2px white;
+	border-top: rgba(255, 255, 255, 0.635) 0.5px solid;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 /*Timeline*/
@@ -406,14 +417,14 @@ h1 {
 }
 
 h1 {
-	color: #B3EEBE;
+	color: #89ff00;
 	font-size: 2rem;
 	width: 100vw;
 	text-align: center;
 	padding: 0%;
 	font-weight: 600;
-	margin-top: 8rem;
-	margin-bottom: 4rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 @media (min-width: 1000px) {
@@ -425,12 +436,12 @@ h1 {
 		opacity: 100;
 		max-width: 80%;
 		max-height: 100%;
-		
+
 		padding: 0%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		
+
 	}
 }
 
@@ -442,7 +453,7 @@ h1 {
 	#img2 {
 		opacity: 100;
 		max-width: 100%;
-		
+
 		padding: 0%;
 		display: block;
 		margin-left: auto;
