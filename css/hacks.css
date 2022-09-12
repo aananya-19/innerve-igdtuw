@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 html,
 body {
@@ -10,14 +11,19 @@ body {
 	position: relative;
 }
 
-
-.navbar ul li p:hover {
-	color: #F87EDF;
+.heading {
+	padding: 3.5rem 0 0 0;
+	font-family: 'Neucha', cursive;
+	text-shadow: 0 0 5px #B5DBF0, 0 0 10px #93109C, 0 0 21px #E7A084;
 }
 
-@media (max-width:800px) {
+.navbar ul li p:hover {
+	color: #BAF4C4;
+}
+
+@media (max-width:600px) {
 	.navContainer .navbar {
-		background: #6b0f54;
+		background: #0d3d2e;
 	}
 }
 
@@ -49,10 +55,18 @@ body {
 }
 
 #reg-button {
-	background-color: rgb(110, 212, 110);
-	font-size: larger;
-	padding: 0.5rem 1rem;
+	background-color: #136149;
+	font-size: 20px;
+	color: white;
+	font-weight: 'QuickSand', sans-serif;
+	padding: 1rem 2rem;
 	border-radius: 30px;
+	transition: 0.3ms ease-in-out;
+	cursor: pointer;
+}
+
+#reg-button:hover {
+	background-color: #0c4937;
 }
 
 .page-event {
@@ -69,7 +83,7 @@ body {
 
 .page-event .cover .heading {
 	font-size: 80px;
-	margin-top: 50px;
+	margin-top: 100px;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
 	text-align: center;
@@ -91,7 +105,7 @@ body {
 }
 
 .page-event .upcoming-sec {
-	padding: 5vh 0;
+	padding: 0 0 5vh 0;
 	border-bottom: 1px solid #ccc;
 
 }
@@ -109,7 +123,7 @@ body {
 
 .page-event .upcoming-event-list .event-block {
 	padding: 5vh 0;
-	border-bottom: 1px solid #ccc;
+	/* border-bottom: 1px solid #ccc; */
 }
 
 .page-event .upcoming-event-list .event-block .sec-1,
@@ -388,20 +402,35 @@ body {
 	letter-spacing: 2px;
 }
 
+h1 {
+	font-family: 'QuickSand', sans-serif;
+	color: white;
+	font-size: 2rem;
+	font-weight: bolder;
+	width: 100vw;
+	text-align: center;
+	padding: 0%;
+	text-shadow: 0 0 2px #B5DBF0, 0 0 2px #89ff00,
+		0 0 2px white;
+	border-top: rgba(255, 255, 255, 0.635) 0.5px solid;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
 /*Timeline*/
 .timelines {
 	background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
 }
 
 h1 {
-	color: #B3EEBE;
+	color: #89ff00;
 	font-size: 2rem;
 	width: 100vw;
 	text-align: center;
 	padding: 0%;
 	font-weight: 600;
-	margin-top: 8rem;
-	margin-bottom: 4rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 @media (min-width: 1000px) {
@@ -411,13 +440,14 @@ h1 {
 
 	#img {
 		opacity: 100;
-		max-width: 90%;
+		max-width: 80%;
 		max-height: 100%;
+
 		padding: 0%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		/* width: 50%; */
+
 	}
 }
 
@@ -429,7 +459,7 @@ h1 {
 	#img2 {
 		opacity: 100;
 		max-width: 100%;
-		/* max-height: 100%; */
+
 		padding: 0%;
 		display: block;
 		margin-left: auto;
@@ -543,9 +573,13 @@ h2 {
 	margin-top: 0rem;
 }
 
-ul {
+.main ul {
 	list-style-type: square;
 	list-style-position: inside;
+}
+
+.hydrated {
+	visibility: inherit;
 }
 
 @media only screen and (max-width: 1001px) {}
@@ -574,7 +608,6 @@ body {
 
 	font-family: 'Quicksand', sans-serif;
 
-	min-height: 100vh;
 	/* padding: 2rem; */
 
 	/* color: hsla(0, 0%, 0%, .6); */
@@ -584,7 +617,7 @@ body {
 
 h1 {
 	font-size: 2rem;
-	padding-top: 2rem;
+	padding-top: 4rem;
 	color: #BAF4C4;
 	text-transform: uppercase;
 }

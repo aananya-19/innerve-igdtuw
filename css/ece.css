@@ -41,7 +41,7 @@ body {
   color: #faa3e9;
 }
 
-@media (max-width:800px) {
+@media (max-width:600px) {
   .navContainer .navbar {
     background: #370963;
   }
