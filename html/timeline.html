@@ -5,37 +5,74 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Innerve | Timeline</title>
+  <title>INNERVE | Timeline</title>
   <link rel="stylesheet" href="https://rawcdn.githack.com/SochavaAG/example-mycode/master/_common/css/reset.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" />
   <link rel="stylesheet" href="../css/timeline.css" />
+  <link rel="stylesheet" href="../css/header_footer.css">
+
+  <style>
+    .scrolled {
+      background: #7c577ccb;
+    }
+  </style>
 </head>
 
 <body>
-  <nav>
-    <input type="checkbox" id="check" />
-    <label for="check" class="checkbtn">
-      <i class="fas fa-bars"></i>
-    </label>
-    <a class="navbar-brand" href="landing.html">
-      <img id="logo" src="../assets/header_footer/logo.webp" height="82" width="152" />
-    </a>
-    <ul>
-      <!-- <li>
-          <a class="menu" href="../header-footer/header_footer.html">Home</a>
-        </li> -->
-      <!-- <li><a class="menu" href="#">Register</a></li> -->
-      <li><a class="menu" href="./events.html">Events</a></li>
-      <li><a class="menu" href="./gallery.html">Gallery</a></li>
-      <li><a class="menu" href="./sponsor.html">Sponsors</a></li>
-      <!-- <li><a class="menu" href="#">Social Campaign</a></li> -->
-      <li><a class="menu" href="./Timeline/inn.html">Timeline</a></li>
-      <li><a class="menu" href="./teams.html">Meet the team</a></li>
-    </ul>
-  </nav>
+  <div class='navContainer'>
 
+    <a href="./landing.html" class='navLogo'><img src="../assets/header_footer/logo.webp" alt=""></a>
+
+
+    <input type="checkbox" id='menu-bar' />
+    <label for="menu-bar">
+      <img src="../assets/header_footer/hamburger.png" alt="">
+    </label>
+    <nav class='navbar'>
+      <ul>
+        <a href="./hacks.html">
+
+
+          <li>
+            <p>Innerve Hacks</p>
+          </li>
+        </a>
+        <a href="./events.html">
+          <li>
+            <p>Events</p>
+          </li>
+        </a>
+        <a href="./gallery.html">
+          <li>
+            <p>Gallery</p>
+          </li>
+        </a>
+        <a href="./sponsor.html">
+
+          <li>
+            <p>Sponsors</p>
+          </li>
+        </a>
+        <a href="./timeline.html">
+
+          <li>
+            <p>Timeline</p>
+          </li>
+        </a>
+        <a href="./teams.html">
+
+          <li>
+            <p>Team</p>
+          </li>
+        </a>
+      </ul>
+    </nav>
+  </div>
+
+
+  <section class="coming">
 
     <!-- <div>
       <p class="comingsoon">COMING SOON</p>
@@ -504,33 +541,33 @@
 
   <footer>
     <div class="waves">
-        <div class="wave" id="wave1"></div>
-        <div class="wave" id="wave2"></div>
-        <div class="wave" id="wave3"></div>
-        <div class="wave" id="wave4"></div>
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
     </div>
     <ul class="social_icon">
-        <li><a href="https://www.facebook.com/igdtuwinnerve/" target="_blank">
-                <ion-icon name="logo-facebook"></ion-icon>
-            </a></li>
-        <li><a href="https://twitter.com/innerveigdtuw/" target="_blank">
-                <ion-icon name="logo-twitter"></ion-icon>
-            </a></li>
-        <li><a href="https://www.linkedin.com/company/innerve/mycompany/" target="_blank">
-                <ion-icon name="logo-linkedin"></ion-icon>
-            </a></li>
-        <li><a href="https://www.instagram.com/innerveigdtuw/" target="_blank">
-                <ion-icon name="logo-instagram"></ion-icon>
-            </a></li>
+      <li><a href="https://www.facebook.com/igdtuwinnerve/" target="_blank">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li><a href="https://twitter.com/innerveigdtuw/" target="_blank">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li><a href="https://www.linkedin.com/company/innerve/mycompany/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li><a href="https://www.instagram.com/innerveigdtuw/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
     </ul>
-</footer>
-  
+  </footer>
+
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="../js/timeline.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="../js/timeline.js"></script>
   <!-- <script src="../js/navbar.js"></script> -->
 </body>
 
 </html>
-

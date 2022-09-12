@@ -18,6 +18,27 @@ body {
 /********************FLOATING ICONS************************/
 /**********************************************************/
 
+.scrolled {
+  background: #8f447cc2;
+}
+
+.navbar ul li p:hover {
+  color: #F87EDF;
+}
+
+@media (max-width:600px) {
+  .navContainer .navbar {
+    background: #6b0f54;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar li {
+    margin: 20px 0;
+  }
+}
+
+
 .svg-icon {
   position: absolute;
   animation-name: floating;
