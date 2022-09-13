@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 html,
 body {
@@ -10,9 +11,14 @@ body {
 	position: relative;
 }
 
+.heading {
+	padding: 3.5rem 0 0 0;
+	font-family: 'Neucha', cursive;
+	text-shadow: 0 0 5px #B5DBF0, 0 0 10px #93109C, 0 0 21px #E7A084;
+}
 
 .navbar ul li p:hover {
-	color: #F87EDF;
+	color: #BAF4C4;
 }
 
 @media (max-width:600px) {
@@ -99,7 +105,7 @@ body {
 }
 
 .page-event .upcoming-sec {
-	padding: 5vh 0;
+	padding: 0 0 5vh 0;
 	border-bottom: 1px solid #ccc;
 
 }
@@ -567,9 +573,13 @@ h2 {
 	margin-top: 0rem;
 }
 
-ul {
+.main ul {
 	list-style-type: square;
 	list-style-position: inside;
+}
+
+.hydrated {
+	visibility: inherit;
 }
 
 @media only screen and (max-width: 1001px) {}
@@ -598,7 +608,6 @@ body {
 
 	font-family: 'Quicksand', sans-serif;
 
-	min-height: 100vh;
 	/* padding: 2rem; */
 
 	/* color: hsla(0, 0%, 0%, .6); */
@@ -608,7 +617,7 @@ body {
 
 h1 {
 	font-size: 2rem;
-	padding-top: 2rem;
+	padding-top: 4rem;
 	color: #BAF4C4;
 	text-transform: uppercase;
 }
