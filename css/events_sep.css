@@ -46,12 +46,13 @@ body {
     background-color: #602A88;
     position: relative;
     overflow: hidden;
-    height: fit-content;
+    /* height: fit-content; */
 }
 
 .event img {
     width: 100%;
-    /* height: ; */
+    height: 425px;
+    object-fit: cover;
 }
 
 .event-info {
