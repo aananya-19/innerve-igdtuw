@@ -103,16 +103,22 @@ body {
     font-size: 1.2rem;
 }
 
+.overview span {
+    margin-top: 5px 0;
+}
+
 .event:hover .overview {
     transform: translateY(0);
 }
 
-img{
+img {
     object-fit: cover;
-  }
-  button{
+}
+
+button {
     border-radius: 5%;
-  }
+}
+
 .heading {
     font-family: 'Neucha', cursive;
     color: white;
@@ -122,15 +128,16 @@ img{
         0 0 21px #F67EE1;
     text-align: center;
     padding-top: 50px;
-  }
-  .head{
+}
+
+.head {
     font-family: 'Neucha', cursive;
     font-size: 50px;
     color: white;
     text-align: center;
-  }
+}
 
-  .btn {
+.btn {
     cursor: pointer;
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
@@ -142,7 +149,7 @@ img{
     background-color: black;
     border: none;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #602A88;
 }
-  
