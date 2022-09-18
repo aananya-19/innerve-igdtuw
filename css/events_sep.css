@@ -92,6 +92,7 @@ body {
     font-weight: 500;
     padding: 1rem;
     max-height: 100%;
+    text-align: center;
     font-family: 'Quicksand', sans-serif;
     transform: translateY(101%);
     transition: transform 0.3s ease-in;
@@ -101,10 +102,6 @@ body {
     font-weight: 900;
     padding: 1rem 0;
     font-size: 1.2rem;
-}
-
-.overview span {
-    margin-top: 5px 0;
 }
 
 .event:hover .overview {
