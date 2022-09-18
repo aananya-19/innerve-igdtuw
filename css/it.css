@@ -398,3 +398,6 @@ body {
 img{
   object-fit: cover;
 }
+button{
+  border-radius: 5%;
+}
