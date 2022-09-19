@@ -151,8 +151,8 @@ section {
 footer {
   position: relative;
   width: 100%;
-  background: #AAAAAA;
-  min-height: 100px;
+  background: #ffffff;
+  min-height: 90px;
   padding: 20px 50px;
   display: flex;
   flex-direction: column;
@@ -160,6 +160,7 @@ footer {
   align-items: center;
   display: flex;
   margin-top: 100px;
+  opacity: 95%;
 
 }
 
