@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    /*background: linear-gradient(to bottom right,rgb(8, 2, 22),#05032e); */
+    background: url("../assets/events/eventbg.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+.navContainer {
+    background-color: #671b83da;
+}
+
+.navbar ul li p:hover {
+    color: #faa3e9;
+}
+
+@media (max-width:600px) {
+    .navContainer .navbar {
+        background: #370963;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar li {
+        margin: 20px 0;
+    }
+}
+
+.events {
+    /* padding-top: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event {
+    width: 300px;
+    margin: 3rem;
+    border-radius: 3px;
+    box-shadow: 0.2px 4px 5px rgba(0, 0, 0, 0.1);
+    background-color: #602A88;
+    position: relative;
+    overflow: hidden;
+    /* height: fit-content; */
+}
+
+.event img {
+    width: 100%;
+    height: 425px;
+    object-fit: cover;
+}
+
+.event-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    font-family: 'Neucha', cursive;
+    /* letter-spacing: 0.5px; */
+    text-align: center;
+}
+
+.event-info h3 {
+    margin-top: 0;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+/* .movie-info span {
+    background-color: #C996CC;
+    padding: 0.25rem 0.5rem;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+} */
+
+.overview {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #9B2EAD;
+    color: white;
+    font-weight: 500;
+    padding: 1rem;
+    max-height: 100%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+}
+
+.overview h3 {
+    font-weight: 900;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.event:hover .overview {
+    transform: translateY(0);
+}
+
+img {
+    object-fit: cover;
+}
+
+button {
+    border-radius: 5%;
+}
+
+.heading {
+    font-family: 'Neucha', cursive;
+    color: white;
+    margin-top: 50px;
+    font-size: 40px;
+    text-shadow: 0 0 5px #962AA4, 0 0 10px #7DA9F7,
+        0 0 21px #F67EE1;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.head {
+    font-family: 'Neucha', cursive;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.65rem;
+    font-weight: bold;
+    letter-spacing: 0.025rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #602A88;
+}
