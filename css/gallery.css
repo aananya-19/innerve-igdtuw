@@ -26,6 +26,28 @@ body {
   color: #F87EDF;
 }
 
+footer .social_icon li a {
+  font-size: 2em;
+  color: #f7d5ee;
+  margin: 0 20px;
+  display: inline-block;
+  transition: 0.5s;
+}
+footer .wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("../assets/header_footer/image\ \(3\).png");
+  background-size: 1000px 100px;
+}
+
+footer {
+
+  background: #721f5d;
+}
+
 @media (max-width:600px) {
   .navContainer .navbar {
     background: #6b0f54;
