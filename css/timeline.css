@@ -40,6 +40,10 @@ footer {
   text-shadow: 0 0 5px #b8a1da, 0 0 10px #f5a3e6, 0 0 21px #f67ee1;
 }
 
+footer .social_icon li a:hover {
+  color: #4A2557;
+}
+
 @font-face {
   font-family: 'ESL Legend';
   src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot);
@@ -97,9 +101,19 @@ img {
   text-align: center;
 }
 
+.ag-timeline_title-box p {
+  color: white;
+  font-family: 'Neucha', cursive;
+  font-size: 1.5rem;
+}
+
+.ag-timeline_title-box p:last-child {
+  margin-bottom: 100px;
+}
+
 .ag-timeline_tagline {
-  font-size: 80px;
-  margin: 30px 0;
+  font-size: 40px;
+  margin: 50px 0 40px 0;
   color: white;
   font-family: 'Neucha', cursive;
   text-shadow: 0 0 5px #b8a1da, 0 0 10px #f5a3e6, 0 0 21px #f67ee1;
