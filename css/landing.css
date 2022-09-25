@@ -142,6 +142,12 @@ body {
   }
 }
 
+.dir {
+  position: relative;
+  bottom: 680px;
+  font-size: 40px;
+}
+
 
 @media screen and (max-width: 600px) {
   .navbar li {
@@ -168,11 +174,11 @@ body {
 }
 
 .p-item1 {
-  background: url("../assets/landing/background.jpg") center/cover no-repeat;
+  background: url("https://gdurl.com/9V7y") center/cover no-repeat;
 }
 
 .p-item3 {
-  background: url("../assets/landing/hiker.png") bottom/100% no-repeat;
+  background: url("https://gdurl.com/AOiz") bottom/100% no-repeat;
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -248,7 +254,7 @@ body {
 
 .sub {
   position: relative;
-  bottom: 30px;
+  bottom: 145px;
   font-size: 27px !important;
 }
 
@@ -264,7 +270,7 @@ body {
 
   .sub {
     position: relative;
-    bottom: 60px;
+    /* bottom: 60px; */
     font-size: 15px !important;
   }
 
@@ -341,7 +347,7 @@ body {
     font-size: 15px !important;
     position: relative;
     left: 6%;
-    bottom: 10% !important;
+    /* bottom: 10% !important; */
   }
 }
 
@@ -528,7 +534,7 @@ footer .social_icon li a {
 
 footer .social_icon li a:hover {
   transform: translateY(-10px);
-  color: #532E98 !important;
+  color: #FF72BE !important;
   border-radius: 7px;
   padding-bottom: 1px;
   padding-right: 1px;
