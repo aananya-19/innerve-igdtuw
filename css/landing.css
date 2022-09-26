@@ -142,7 +142,7 @@ body {
   }
 }
 
-.dir{
+.dir {
   position: relative;
   bottom: 680px;
   font-size: 40px;
@@ -534,7 +534,7 @@ footer .social_icon li a {
 
 footer .social_icon li a:hover {
   transform: translateY(-10px);
-  color: #532E98 !important;
+  color: #FF72BE !important;
   border-radius: 7px;
   padding-bottom: 1px;
   padding-right: 1px;
