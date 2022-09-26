@@ -559,3 +559,21 @@ a:hover {
   background: transparent;
   transition: .5s;
 }
+  .glow {
+   
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      font-size: 35px;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #6f00e6, 0 0 40px #a00cf6, 0 0 50px #7315f7, 0 0 60px #921ef8, 0 0 70px #8a12f3;
+    }
+    to {font-size: 25px;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #6f00e6, 0 0 40px #a00cf6, 0 0 50px #7315f7, 0 0 60px #921ef8, 0 0 70px #8a12f3;
+    }
+  }

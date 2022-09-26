@@ -112,5 +112,6 @@ function randomWordLoop() {
   }
 }
 
+
 randomWordLoop();
 
