@@ -39,7 +39,7 @@ body {
 }
 
 .event {
-    width: 300px;
+    width: 350px;
     margin: 3rem;
     border-radius: 3px;
     box-shadow: 0.2px 4px 5px rgba(0, 0, 0, 0.1);
@@ -51,7 +51,7 @@ body {
 
 .event img {
     width: 100%;
-    height: 425px;
+    height: 450px;
     object-fit: cover;
 }
 
@@ -120,7 +120,7 @@ button {
     font-family: 'Neucha', cursive;
     color: white;
     margin-top: 50px;
-    font-size: 40px;
+    font-size: 30px;
     text-shadow: 0 0 5px #962AA4, 0 0 10px #7DA9F7,
         0 0 21px #F67EE1;
     text-align: center;
@@ -129,7 +129,7 @@ button {
 
 .head {
     font-family: 'Neucha', cursive;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     text-align: center;
 }
@@ -149,4 +149,10 @@ button {
 
 .btn:hover {
     background-color: #602A88;
+}
+
+@media screen and (max-width: 600px) {
+    .event img{
+        height: 370px;
+    }
 }

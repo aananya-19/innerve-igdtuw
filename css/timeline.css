@@ -30,6 +30,7 @@ footer .wave {
 footer {
   background: #92469b;
 }
+
 .heading {
   color: white;
   display: flex;
@@ -39,19 +40,18 @@ footer {
   text-shadow: 0 0 5px #b8a1da, 0 0 10px #f5a3e6, 0 0 21px #f67ee1;
 }
 
+footer .social_icon li a:hover {
+  color: #4A2557;
+}
+
 @font-face {
   font-family: 'ESL Legend';
   src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot);
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot#iefix)
-      format('embedded-opentype'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff2)
-      format('woff2'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff)
-      format('woff'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.ttf)
-      format('truetype'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.svg#eicon)
-      format('svg');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot#iefix) format('embedded-opentype'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff2) format('woff2'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff) format('woff'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.ttf) format('truetype'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.svg#eicon) format('svg');
   font-style: normal;
   font-weight: 300;
 }
@@ -59,16 +59,11 @@ footer {
 @font-face {
   font-family: 'ESL Legend';
   src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot);
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot#iefix)
-      format('embedded-opentype'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff2)
-      format('woff2'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff)
-      format('woff'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.ttf)
-      format('truetype'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.svg#eicon)
-      format('svg');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot#iefix) format('embedded-opentype'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff2) format('woff2'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff) format('woff'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.ttf) format('truetype'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.svg#eicon) format('svg');
   font-style: normal;
   font-weight: normal;
 }
@@ -76,16 +71,11 @@ footer {
 @font-face {
   font-family: 'ESL Legend';
   src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot);
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot#iefix)
-      format('embedded-opentype'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff2)
-      format('woff2'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff)
-      format('woff'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.ttf)
-      format('truetype'),
-    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.svg#eicon)
-      format('svg');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot#iefix) format('embedded-opentype'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff2) format('woff2'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff) format('woff'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.ttf) format('truetype'),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.svg#eicon) format('svg');
   font-style: normal;
   font-weight: bold;
 }
@@ -111,9 +101,19 @@ img {
   text-align: center;
 }
 
+.ag-timeline_title-box p {
+  color: white;
+  font-family: 'Neucha', cursive;
+  font-size: 1.5rem;
+}
+
+.ag-timeline_title-box p:last-child {
+  margin-bottom: 100px;
+}
+
 .ag-timeline_tagline {
-  font-size: 80px;
-  margin: 30px 0;
+  font-size: 40px;
+  margin: 50px 0 40px 0;
   color: white;
   font-family: 'Neucha', cursive;
   text-shadow: 0 0 5px #b8a1da, 0 0 10px #f5a3e6, 0 0 21px #f67ee1;
@@ -166,6 +166,11 @@ img {
 
 .scrolled {
   transition: background 500ms;
+  background: #8f447cc2;
+}
+
+.navbar ul li p:hover {
+  color: #F87EDF;
 }
 
 .navbar ul {
@@ -244,7 +249,7 @@ img {
     width: 100%;
   }
 
-  #menu-bar:checked ~ .navbar {
+  #menu-bar:checked~.navbar {
     left: 0;
   }
 }
@@ -342,7 +347,9 @@ img {
   height: 50px;
   line-height: 50px;
   width: 50px;
-  border: 3px solid #f67ee1 /*#FF0*/;
+  border: 3px solid #f67ee1
+    /*#FF0*/
+  ;
   background-color: #1d1d1b;
 
   text-align: center;
@@ -357,7 +364,9 @@ img {
 
 .js-ag-active .ag-timeline-card_point {
   color: #1d1d1b;
-  background-color: rgb(229, 183, 239) /*#FF0*/;
+  background-color: rgb(229, 183, 239)
+    /*#FF0*/
+  ;
 }
 
 .ag-timeline-card_meta-box {
@@ -370,7 +379,9 @@ img {
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: #d2c1eb /*#FF0*/;
+  color: #d2c1eb
+    /*#FF0*/
+  ;
 }
 
 .ag-timeline-card_item {
@@ -562,8 +573,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 479px) {
-}
+@media only screen and (max-width: 479px) {}
 
 @media (min-width: 768px) and (max-width: 979px) {
   .ag-format-container {
