@@ -2,7 +2,7 @@ const showPopUp = () => {
   const popup = document.getElementById('PopUp');
   setTimeout(() => {
     popup.style.display = "flex"
-  }, 5000)
+  }, 4000)
 }
 
 const toggle = () => {
