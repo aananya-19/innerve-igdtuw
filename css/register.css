@@ -1,0 +1,31 @@
+html,body{
+    overflow-x: hidden;
+
+}
+body{
+background: url("../assets/registerbg.jpg") center center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  image-rendering: auto;
+}
+.form{
+    position: absolute;
+   top:3rem;
+   left:22.5%;
+   overflow-x: hidden;
+   
+}
+
+@media (max-width: 991px){
+    .form{
+        position: absolute;
+       top:3rem;
+       left:0;
+       width:100%;
+       height:100%;
+    }
+    iframe{
+        width: 360px;
+    }
+}
