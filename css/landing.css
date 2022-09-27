@@ -14,6 +14,7 @@ body {
 }
 
 .navContainer {
+  font-family: 'Quicksand', sans-serif;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -26,7 +27,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 100;
+  z-index: 2000;
   height: 70px;
   margin-bottom: 100px;
 
@@ -280,7 +281,7 @@ body {
 }
 
 #PopUp {
-  z-index: 2000;
+  z-index: 1500;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -289,8 +290,8 @@ body {
   width: 50%;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 3px solid rgba(255, 255, 255, 0.5);
+  border-left: 3px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(15px);
   text-align: center;
   display: flex;
@@ -314,6 +315,7 @@ body {
   font-family: 'Neucha', cursive;
   color: white;
   font-weight: bold;
+  margin-top: 30px;
   padding: 30px 0;
   font-size: 2.5rem;
   text-shadow: 0 0 5px #b8a1da, 0 0 10px #f5a3e6, 0 0 21px #f67ee1;
@@ -330,7 +332,7 @@ body {
   color: white;
   border: none;
   border: 1px solid white;
-  padding: 5px 10px;
+  padding: 10px 15px;
   border-radius: 15px;
   cursor: pointer;
   margin: 20px 0;
